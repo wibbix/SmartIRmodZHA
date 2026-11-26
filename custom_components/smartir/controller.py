@@ -208,3 +208,6 @@ class ZHAController(AbstractController):
             'params': { 'code': command},
             'cluster_id': '57348'
         }
+
+        await self.hass.services.async_call(
+            'zha', 'issue_zigbee_cluster_command', service_data)
