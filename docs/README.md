@@ -1,3 +1,4 @@
+SmartIR fork with ZHA contoller mod (for support MOES UFO-R11 IR Blaster TS1201)
 [![](https://img.shields.io/github/v/release/smartHomeHub/SmartIR.svg?style=flat-square)](https://github.com/smartHomeHub/SmartIR/releases/latest) [![](https://img.shields.io/badge/HACS-Custom-orange.svg?style=flat-square)](https://github.com/custom-components/hacs)
 
 > ### ⚠️ Warning  
@@ -15,6 +16,7 @@ SmartIR currently supports the following controllers:
 * [LOOK.in Remote](http://look-in.club/devices/remote)
 * [ESPHome User-defined service for remote transmitter](https://esphome.io/components/api.html#user-defined-services)
 * [MQTT Publish service](https://www.home-assistant.io/docs/mqtt/service/)
+* [ZHA](https://www.home-assistant.io/integrations/zha/) [through quirks]
 
 More than 120 climate devices are currently supported out-of-the-box, mainly for the Broadlink controller, thanks to our awesome community.<br><br>
 Don't forget to **star** the repository if you had fun!<br><br>
