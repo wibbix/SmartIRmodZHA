@@ -38,6 +38,7 @@ def get_controller(hass, controller, encoding, controller_data, delay):
         MQTT_CONTROLLER: MQTTController,
         LOOKIN_CONTROLLER: LookinController,
         ESPHOME_CONTROLLER: ESPHomeController
+        ZHA_CONTROLLER: ZHAController
     }
     try:
         return controllers[controller](hass, controller, encoding, controller_data, delay)
